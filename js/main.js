@@ -37,7 +37,17 @@ if (typeof desktopNavigation.addEventListener === "function") {
 }
 
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && menuToggle?.getAttribute("aria-expanded") === "true") {
+  if (event.key !== "Escape") return;
+
+  const openReportDialog = document.querySelector(".report-dialog[open]");
+
+  if (openReportDialog) {
+    event.preventDefault();
+    openReportDialog.close();
+    return;
+  }
+
+  if (menuToggle?.getAttribute("aria-expanded") === "true") {
     closeMenu();
     menuToggle.focus();
   }
@@ -68,5 +78,32 @@ document.querySelectorAll("[data-faq]").forEach((faq) => {
       trigger.setAttribute("aria-expanded", String(!isExpanded));
       panel.hidden = isExpanded;
     });
+  });
+});
+
+let reportOpener = null;
+
+document.querySelectorAll("[data-report-open]").forEach((trigger) => {
+  trigger.addEventListener("click", () => {
+    const dialog = document.getElementById(trigger.dataset.reportOpen);
+
+    if (!dialog || typeof dialog.showModal !== "function") return;
+
+    reportOpener = trigger;
+    dialog.showModal();
+    dialog.querySelector("[data-report-close]")?.focus();
+  });
+});
+
+document.querySelectorAll(".report-dialog").forEach((dialog) => {
+  dialog.querySelector("[data-report-close]")?.addEventListener("click", () => dialog.close());
+
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+
+  dialog.addEventListener("close", () => {
+    reportOpener?.focus();
+    reportOpener = null;
   });
 });
