@@ -2,6 +2,7 @@
   --color-deep-blue: #071d2b;
   --color-graphite-blue: #102c3a;
   --color-brand-blue: #056a9e;
+  --color-cta-blue: #005d92;
   --color-cyan: #23c1d4;
   --color-white: #f8fafb;
   --color-text-muted: #dce7eb;
@@ -207,10 +208,10 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--color-cyan);
+  border: 1px solid var(--color-cta-blue);
   border-radius: var(--radius-small);
-  background: var(--color-cyan);
-  color: var(--color-deep-blue);
+  background: var(--color-cta-blue);
+  color: var(--color-white);
   font-size: 0.94rem;
   font-weight: 750;
   line-height: 1.2;
@@ -223,8 +224,14 @@ a {
   transform: translateY(1px);
 }
 
+.button:focus-visible {
+  outline: 3px solid var(--color-deep-blue);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px var(--color-white);
+}
+
 .button-secondary {
-  border-color: var(--color-brand-blue);
+  border-color: var(--color-cta-blue);
   background: transparent;
   color: var(--color-deep-blue);
 }
@@ -2795,13 +2802,13 @@ h1 {
   }
 
   .button:hover {
-    border-color: var(--color-brand-blue);
-    background: var(--color-brand-blue);
+    border-color: var(--color-cta-blue);
+    background: var(--color-cta-blue);
     color: var(--color-white);
   }
 
   .button-secondary:hover {
-    border-color: var(--color-brand-blue);
+    border-color: var(--color-cta-blue);
     background: rgba(5, 106, 158, 0.08);
     color: var(--color-brand-blue);
   }
