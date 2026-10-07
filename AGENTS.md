@@ -4,17 +4,18 @@
 
 Crear un sitio institucional y comercial para Atom NDT – Ensayos No Destructivos.
 
-El sitio debe presentar los servicios de Cristian Czornobaj, generar confianza profesional y convertir visitas en consultas técnicas calificadas.
+El sitio debe presentar a Atom NDT como empresa de Ensayos No Destructivos con equipo propio de profesionales calificados, generar confianza y convertir visitas en consultas técnicas calificadas.
 
 ## 2. Empresa
 
 - Marca: Atom NDT – Ensayos No Destructivos.
 - Base operativa: Lanús, Provincia de Buenos Aires, Argentina.
 - Cobertura habitual: radio aproximado de hasta 200 km.
-- Modalidad: atención directa por Cristian Czornobaj.
+- Modalidad: servicios realizados por equipo propio de profesionales calificados.
+- Cristian Czornobaj es propietario y responsable técnico; no presentar una operación individual.
 - Público principal: PYMES industriales, metalúrgicas, fabricantes y empresas de mantenimiento.
 - Idioma público del sitio: español argentino.
-- El sitio no debe sugerir que existe una gran empresa o un equipo técnico permanente.
+- No inventar tamaño, cantidad de integrantes, certificaciones de otros miembros ni antigüedad de la empresa.
 
 ## 3. Servicios y prioridad comercial
 
@@ -46,7 +47,7 @@ Cristian Czornobaj:
 
 No inventar clientes, fechas, cantidades, estadísticas, certificaciones ni capacidades que no estén incluidas en el contenido aprobado.
 
-La experiencia personal de Cristian no debe presentarse como historial contractual de Atom NDT.
+La experiencia personal de Cristian no debe presentarse como historial contractual ni antigüedad de Atom NDT. Sus más de 25 años deben atribuirse al fundador/responsable técnico. Las certificaciones publicadas son personales del responsable técnico, no de la empresa ni de todos los integrantes. Puede seguir apareciendo en fotografías operativas.
 
 ## 5. Aplicaciones
 

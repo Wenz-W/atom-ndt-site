@@ -83,6 +83,39 @@ document.querySelectorAll("[data-faq]").forEach((faq) => {
 
 let reportOpener = null;
 
+document.querySelectorAll("[data-gallery]").forEach((gallery) => {
+  const track = gallery.querySelector(".inspection-gallery__track");
+  const previous = gallery.querySelector("[data-gallery-prev]");
+  const next = gallery.querySelector("[data-gallery-next]");
+  const status = gallery.querySelector("[data-gallery-status]");
+  const total = track.children.length;
+  const current = () => Math.round(track.scrollLeft / track.clientWidth);
+  const update = () => {
+    const index = current();
+    status.textContent = `${index + 1} / ${total}`;
+    previous.disabled = index === 0;
+    next.disabled = index === total - 1;
+  };
+  const go = (index) => {
+    track.scrollTo({
+      left: Math.max(0, Math.min(total - 1, index)) * track.clientWidth,
+      behavior: "instant"
+    });
+    update();
+  };
+  previous.addEventListener("click", () => go(current() - 1));
+  next.addEventListener("click", () => go(current() + 1));
+  track.addEventListener("keydown", (event) => {
+    if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+    event.preventDefault();
+    go(event.key === "Home" ? 0 : event.key === "End" ? total - 1 : current() + (event.key === "ArrowRight" ? 1 : -1));
+  });
+  track.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+  gallery.querySelector(".inspection-gallery__controls").hidden = false;
+  update();
+});
+
 document.querySelectorAll("[data-report-open]").forEach((trigger) => {
   trigger.addEventListener("click", () => {
     const dialog = document.getElementById(trigger.dataset.reportOpen);
