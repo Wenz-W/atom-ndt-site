@@ -10,7 +10,7 @@ El sitio debe presentar a Atom NDT como empresa de Ensayos No Destructivos con e
 
 - Marca: Atom NDT – Ensayos No Destructivos.
 - Base operativa: Lanús, Provincia de Buenos Aires, Argentina.
-- Cobertura habitual: radio aproximado de hasta 200 km.
+- Cobertura: Provincia de Buenos Aires, con base operativa en Lanús.
 - Modalidad: servicios realizados por equipo propio de profesionales calificados.
 - Cristian Czornobaj es propietario y responsable técnico; no presentar una operación individual.
 - Público principal: PYMES industriales, metalúrgicas, fabricantes y empresas de mantenimiento.
@@ -22,7 +22,8 @@ El sitio debe presentar a Atom NDT como empresa de Ensayos No Destructivos con e
 1. Partículas Magnéticas.
 2. Ultrasonido Industrial.
 3. Líquidos Penetrantes.
-4. Radiografía Industrial.
+4. Radiografía Industrial con rayos X.
+5. Elaboración de procedimientos de Ensayos No Destructivos.
 
 Partículas Magnéticas debe recibir el mayor destaque comercial.
 
@@ -47,7 +48,7 @@ Cristian Czornobaj:
 
 No inventar clientes, fechas, cantidades, estadísticas, certificaciones ni capacidades que no estén incluidas en el contenido aprobado.
 
-La experiencia personal de Cristian no debe presentarse como historial contractual ni antigüedad de Atom NDT. Sus más de 25 años deben atribuirse al fundador/responsable técnico. Las certificaciones publicadas son personales del responsable técnico, no de la empresa ni de todos los integrantes. Puede seguir apareciendo en fotografías operativas.
+La experiencia personal de Cristian no debe presentarse como historial contractual ni antigüedad de Atom NDT. Sus más de 25 años deben atribuirse al fundador/responsable técnico. La presentación comercial de certificaciones es institucional: equipo de profesionales calificados y certificados en END, sin publicar niveles ni vencimientos individuales ni atribuir Nivel 3 al equipo propio. La documentación del personal asignado puede presentarse según el proyecto. Puede seguir apareciendo en fotografías operativas.
 
 ## 5. Aplicaciones
 
@@ -59,6 +60,7 @@ Las aplicaciones relevantes incluyen:
 - piezas fundidas;
 - piezas forjadas;
 - componentes industriales;
+- puntas de eje de semirremolques;
 - reparaciones soldadas;
 - rieles;
 - soldaduras ferroviarias;
